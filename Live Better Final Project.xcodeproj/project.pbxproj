@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6914AC7DDBE1AD38B6501FD8 /* Pods_Live_Better_Final_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7B969CCA90FD36914C5272 /* Pods_Live_Better_Final_Project.framework */; };
+		7998FEBE24DD3C12008D5ABB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7998FEBD24DD3C12008D5ABB /* Model.swift */; };
+		7998FEC524DD57ED008D5ABB /* RestaurantDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7998FEC424DD57ED008D5ABB /* RestaurantDetailsViewController.swift */; };
+		7998FECB24DD606A008D5ABB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7998FECA24DD606A008D5ABB /* Extensions.swift */; };
+		7998FECD24DD6121008D5ABB /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7998FECC24DD6121008D5ABB /* ActivityIndicator.swift */; };
+		9C209F7524DE53BF005C7D1B /* SubscriptionPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9FF23124DE34970057AC86 /* SubscriptionPlanViewController.swift */; };
+		9C209F7624DE53C9005C7D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7F3E1224CBDFB5003491C8 /* AppDelegate.swift */; };
+		9C209F7724DE53D2005C7D1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7F3E1624CBDFB5003491C8 /* ViewController.swift */; };
+		9C57405324CBE52800BD3F10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C57405224CBE52800BD3F10 /* GoogleService-Info.plist */; };
+		9C57405524CCDD6400BD3F10 /* NewRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C57405424CCDD6400BD3F10 /* NewRestaurantViewController.swift */; };
+		9C7F3E1524CBDFB5003491C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7F3E1424CBDFB5003491C8 /* SceneDelegate.swift */; };
+		9C7F3E1A24CBDFB5003491C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F3E1824CBDFB5003491C8 /* Main.storyboard */; };
+		9C7F3E1C24CBDFB7003491C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F3E1B24CBDFB7003491C8 /* Assets.xcassets */; };
+		9C7F3E1F24CBDFB7003491C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F3E1D24CBDFB7003491C8 /* LaunchScreen.storyboard */; };
+		9C82810824E4FBF3002A2E37 /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82810724E4FBF3002A2E37 /* WelcomeScreenViewController.swift */; };
+		9C82810A24E4FC0E002A2E37 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82810924E4FC0E002A2E37 /* LoginScreenViewController.swift */; };
+		9CEB1AE524DA038E00BB527C /* API in Resources */ = {isa = PBXBuildFile; fileRef = 9CEB1AE424DA038E00BB527C /* API */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72902E5C97A101E0D3BC3224 /* Pods-Live Better Final Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live Better Final Project.debug.xcconfig"; path = "Target Support Files/Pods-Live Better Final Project/Pods-Live Better Final Project.debug.xcconfig"; sourceTree = "<group>"; };
+		7998FEBD24DD3C12008D5ABB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7998FEC424DD57ED008D5ABB /* RestaurantDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsViewController.swift; sourceTree = "<group>"; };
+		7998FECA24DD606A008D5ABB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7998FECC24DD6121008D5ABB /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		9C57405224CBE52800BD3F10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9C57405424CCDD6400BD3F10 /* NewRestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRestaurantViewController.swift; sourceTree = "<group>"; };
+		9C7F3E0F24CBDFB5003491C8 /* Live Better Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Live Better Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7F3E1224CBDFB5003491C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C7F3E1424CBDFB5003491C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C7F3E1624CBDFB5003491C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C7F3E1924CBDFB5003491C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C7F3E1B24CBDFB7003491C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C7F3E1E24CBDFB7003491C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C7F3E2024CBDFB7003491C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C82810724E4FBF3002A2E37 /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		9C82810924E4FC0E002A2E37 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		9C9FF23124DE34970057AC86 /* SubscriptionPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPlanViewController.swift; sourceTree = "<group>"; };
+		9CEB1AE024D9FF6000BB527C /* Live Better Final Project-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Live Better Final Project-Bridging-Header.h"; sourceTree = "<group>"; };
+		9CEB1AE424DA038E00BB527C /* API */ = {isa = PBXFileReference; lastKnownFileType = folder; path = API; sourceTree = "<group>"; };
+		C0E82CB8CD07CCA6DA625583 /* Pods-Live Better Final Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live Better Final Project.release.xcconfig"; path = "Target Support Files/Pods-Live Better Final Project/Pods-Live Better Final Project.release.xcconfig"; sourceTree = "<group>"; };
+		EB7B969CCA90FD36914C5272 /* Pods_Live_Better_Final_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Live_Better_Final_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C7F3E0C24CBDFB5003491C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6914AC7DDBE1AD38B6501FD8 /* Pods_Live_Better_Final_Project.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7998FEBF24DD3C59008D5ABB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7998FEBD24DD3C12008D5ABB /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7998FEC024DD3C62008D5ABB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C82810724E4FBF3002A2E37 /* WelcomeScreenViewController.swift */,
+				9C82810924E4FC0E002A2E37 /* LoginScreenViewController.swift */,
+				9C7F3E1624CBDFB5003491C8 /* ViewController.swift */,
+				9C57405424CCDD6400BD3F10 /* NewRestaurantViewController.swift */,
+				7998FEC424DD57ED008D5ABB /* RestaurantDetailsViewController.swift */,
+				9C9FF23124DE34970057AC86 /* SubscriptionPlanViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7998FEC824DD6058008D5ABB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7998FECC24DD6121008D5ABB /* ActivityIndicator.swift */,
+				7998FECA24DD606A008D5ABB /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9C7F3E0624CBDFB5003491C8 = {
+			isa = PBXGroup;
+			children = (
+				9C7F3E1124CBDFB5003491C8 /* Live Better Final Project */,
+				9C7F3E1024CBDFB5003491C8 /* Products */,
+				E7048E276951E78E5FF97035 /* Pods */,
+				E48E3EE392D1285A738AFCD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C7F3E1024CBDFB5003491C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C7F3E0F24CBDFB5003491C8 /* Live Better Final Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C7F3E1124CBDFB5003491C8 /* Live Better Final Project */ = {
+			isa = PBXGroup;
+			children = (
+				9CEB1AE424DA038E00BB527C /* API */,
+				7998FEC824DD6058008D5ABB /* Utilities */,
+				7998FEBF24DD3C59008D5ABB /* Model */,
+				7998FEC024DD3C62008D5ABB /* Controller */,
+				9C7F3E1224CBDFB5003491C8 /* AppDelegate.swift */,
+				9C7F3E1424CBDFB5003491C8 /* SceneDelegate.swift */,
+				9C7F3E1824CBDFB5003491C8 /* Main.storyboard */,
+				9C7F3E1B24CBDFB7003491C8 /* Assets.xcassets */,
+				9C7F3E1D24CBDFB7003491C8 /* LaunchScreen.storyboard */,
+				9C7F3E2024CBDFB7003491C8 /* Info.plist */,
+				9C57405224CBE52800BD3F10 /* GoogleService-Info.plist */,
+				9CEB1AE024D9FF6000BB527C /* Live Better Final Project-Bridging-Header.h */,
+			);
+			path = "Live Better Final Project";
+			sourceTree = "<group>";
+		};
+		E48E3EE392D1285A738AFCD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB7B969CCA90FD36914C5272 /* Pods_Live_Better_Final_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7048E276951E78E5FF97035 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72902E5C97A101E0D3BC3224 /* Pods-Live Better Final Project.debug.xcconfig */,
+				C0E82CB8CD07CCA6DA625583 /* Pods-Live Better Final Project.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C7F3E0E24CBDFB5003491C8 /* Live Better Final Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C7F3E2324CBDFB7003491C8 /* Build configuration list for PBXNativeTarget "Live Better Final Project" */;
+			buildPhases = (
+				6440D7EB8C91E5A70C359A24 /* [CP] Check Pods Manifest.lock */,
+				9C7F3E0B24CBDFB5003491C8 /* Sources */,
+				9C7F3E0C24CBDFB5003491C8 /* Frameworks */,
+				9C7F3E0D24CBDFB5003491C8 /* Resources */,
+				0E2A1D3B29446C7DC4E5293F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Live Better Final Project";
+			productName = "Live Better Final Project";
+			productReference = 9C7F3E0F24CBDFB5003491C8 /* Live Better Final Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C7F3E0724CBDFB5003491C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Jordyn Adegun";
+				TargetAttributes = {
+					9C7F3E0E24CBDFB5003491C8 = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+					};
+				};
+			};
+			buildConfigurationList = 9C7F3E0A24CBDFB5003491C8 /* Build configuration list for PBXProject "Live Better Final Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C7F3E0624CBDFB5003491C8;
+			productRefGroup = 9C7F3E1024CBDFB5003491C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C7F3E0E24CBDFB5003491C8 /* Live Better Final Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C7F3E0D24CBDFB5003491C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7F3E1F24CBDFB7003491C8 /* LaunchScreen.storyboard in Resources */,
+				9C57405324CBE52800BD3F10 /* GoogleService-Info.plist in Resources */,
+				9C7F3E1C24CBDFB7003491C8 /* Assets.xcassets in Resources */,
+				9CEB1AE524DA038E00BB527C /* API in Resources */,
+				9C7F3E1A24CBDFB5003491C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E2A1D3B29446C7DC4E5293F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Live Better Final Project/Pods-Live Better Final Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Live Better Final Project/Pods-Live Better Final Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Live Better Final Project/Pods-Live Better Final Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6440D7EB8C91E5A70C359A24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Live Better Final Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C7F3E0B24CBDFB5003491C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C82810A24E4FC0E002A2E37 /* LoginScreenViewController.swift in Sources */,
+				7998FEC524DD57ED008D5ABB /* RestaurantDetailsViewController.swift in Sources */,
+				7998FEBE24DD3C12008D5ABB /* Model.swift in Sources */,
+				9C209F7624DE53C9005C7D1B /* AppDelegate.swift in Sources */,
+				9C82810824E4FBF3002A2E37 /* WelcomeScreenViewController.swift in Sources */,
+				9C209F7724DE53D2005C7D1B /* ViewController.swift in Sources */,
+				7998FECB24DD606A008D5ABB /* Extensions.swift in Sources */,
+				9C209F7524DE53BF005C7D1B /* SubscriptionPlanViewController.swift in Sources */,
+				7998FECD24DD6121008D5ABB /* ActivityIndicator.swift in Sources */,
+				9C57405524CCDD6400BD3F10 /* NewRestaurantViewController.swift in Sources */,
+				9C7F3E1524CBDFB5003491C8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C7F3E1824CBDFB5003491C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C7F3E1924CBDFB5003491C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C7F3E1D24CBDFB7003491C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C7F3E1E24CBDFB7003491C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C7F3E2124CBDFB7003491C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C7F3E2224CBDFB7003491C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C7F3E2424CBDFB7003491C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72902E5C97A101E0D3BC3224 /* Pods-Live Better Final Project.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BT25ZXD93;
+				INFOPLIST_FILE = "Live Better Final Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiveBetterNYC.JordynAdegun.Final;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Live Better Final Project/Live Better Final Project-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9C7F3E2524CBDFB7003491C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0E82CB8CD07CCA6DA625583 /* Pods-Live Better Final Project.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BT25ZXD93;
+				INFOPLIST_FILE = "Live Better Final Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiveBetterNYC.JordynAdegun.Final;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Live Better Final Project/Live Better Final Project-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C7F3E0A24CBDFB5003491C8 /* Build configuration list for PBXProject "Live Better Final Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7F3E2124CBDFB7003491C8 /* Debug */,
+				9C7F3E2224CBDFB7003491C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C7F3E2324CBDFB7003491C8 /* Build configuration list for PBXNativeTarget "Live Better Final Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7F3E2424CBDFB7003491C8 /* Debug */,
+				9C7F3E2524CBDFB7003491C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C7F3E0724CBDFB5003491C8 /* Project object */;
+}
